@@ -1,0 +1,95 @@
+.teachers {
+    padding-top: 10.8rem;
+    padding-bottom: 10rem;
+    width: 100%;
+}
+
+.teachers__title {
+    margin-bottom: 11.3rem;
+    display: flex;
+    //*mobile
+    @media (max-width: 767px) {
+        margin-bottom: 5rem;
+        flex-direction: column;
+        width: 90%;
+        text-align: center;     
+    }
+    .span-element {
+        transform: rotate(-45deg);
+        margin-right: 3.6rem;
+        //*mobile
+        @media (max-width: 767px) {
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 3rem;
+           
+        }
+    }
+}
+
+.teachers__cards {
+    display: flex;
+    justify-content: space-between;
+    //*mobile
+    @media (max-width: 767px) {     
+        flex-direction: column;
+        row-gap: 8rem;
+    }
+}
+
+.teacher {
+    margin:0 auto;
+    width: 27%;
+    text-align: center;
+    //*mobile
+    @media (max-width: 767px) {     
+        width: 100%;
+    }
+}
+
+.photo {
+    width: 19rem;
+    height: 19rem;
+    margin: 0 auto 4rem;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    //*mobile
+    @media (max-width: 767px) {
+        margin: 0 auto 2rem;
+    }
+}
+
+.photo_1 {
+    background: url('../img/teachers/img-1.png');
+}
+
+.photo_2 {
+    background: url('../img/teachers/img-2.png');
+}
+
+.photo_3 {
+    background: url('../img/teachers/img-3.png');
+}
+.teacher__name {
+    margin-bottom: 1.5rem;
+}
+.teacher__text {
+    margin-bottom: 3rem;
+    color: $color-text;
+    @include font (1.4rem, 1.2, normal);
+    //*mobile
+    @media (max-width: 767px) {
+        margin-bottom: 2rem;
+    }
+}
+
+.teacher__link  {
+    display: inline;
+    text-align: center;
+    padding: 1rem 3rem;
+    color: $color-text;
+    border: 2px solid $color-text;
+    border-radius: 3rem;
+}

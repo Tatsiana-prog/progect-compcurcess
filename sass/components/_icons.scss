@@ -1,0 +1,53 @@
+.icon {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto 6.6rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_1 {
+    background: url('../img/icons/icon-1.png');
+}
+
+.icon_2 {
+    background: url('../img/icons/icon-2.png');
+}
+
+.icon_3 {
+    background: url('../img/icons/icon-3.png');
+}
+
+.icon-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: linear-gradient(to right, #C89AFC,#7C6AFA); 
+}
+
+.ico {
+    cursor: pointer;
+    display: block;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.ico_vk {
+    background: url('../img/icons/socials/icon-1.svg');
+}
+.ico_youtube {  
+    background: url('../img/icons/socials/icon-2.svg');
+}
+.ico_fb {
+   background: url('../img/icons/socials/icon-3.svg');
+}
+.ico_inst {
+    background: url('../img/icons/socials/icon-4.svg');
+}
+
+

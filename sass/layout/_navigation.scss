@@ -1,0 +1,43 @@
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5.6rem;    
+}
+
+.navigation__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5.6rem;
+    //*tablet big
+    @media (max-width: 1199px) {
+        display: none;  
+    }
+}
+
+.navigation__link {
+    @include font (1.6rem, 1.5, normal);
+    color:$color-text;
+    cursor: pointer;
+    @extend %transition;
+    &:hover {
+        color:$color-add;
+    }
+}
+
+.nav__modal {
+    display: none;
+    //*tablet big
+    @media (max-width: 1199px) {
+      display: block;
+    }
+}
+
+.navigation__button {
+    //*tablet big
+  @media (max-width: 1199px) {
+        display: none;
+    } 
+}

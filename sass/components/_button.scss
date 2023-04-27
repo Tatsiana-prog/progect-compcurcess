@@ -1,0 +1,19 @@
+.button {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background: linear-gradient(to right, #DF5950,#451046);
+    border-radius: 5rem;
+    color:$color-text;
+    @include font (1.6rem, 1.5, bold);
+    @extend %font-prim;   
+}
+.button_room {
+    background: linear-gradient(to right, #C89AFC,#7C6AFA);
+    font-weight: normal; 
+}
+
+
+
+
+
+

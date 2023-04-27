@@ -1,0 +1,45 @@
+.work {
+    padding-top: 10rem;
+    padding-bottom: 11.5rem;
+    width: 100%;
+}
+
+.work__title {
+    margin-bottom: 12rem;
+    text-align: center;
+    
+    //*mobile
+    @media (max-width: 767px) {
+        margin-bottom: 8rem;
+    }
+}
+
+.work__cards {
+    display: flex;
+    justify-content: space-between;    
+    //*tablet small
+    @media (max-width: 991px) {
+        flex-direction: column;
+        row-gap: 30px;        
+    }
+}
+
+.card {
+    width: 27.8%;
+    text-align: center;    
+    //*tablet small
+    @media (max-width: 991px) {
+        margin: 0 auto;
+        width: 80%;
+        row-gap: 2rem;
+    }
+}
+
+.card__title {
+    margin-bottom: 3rem;
+}
+
+.card__text {
+    @include font (1.6rem, 1.61, normal);
+    color:$color-add;
+}
